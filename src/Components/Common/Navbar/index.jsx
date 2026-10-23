@@ -51,7 +51,7 @@ const Navbar = () => {
 
                     </div>
                     {/* Nav Menu  */}
-                    <div className="nav-links">
+                    <div className="pen">
                         <a href="#" className="active">Home</a>
                         <a href="#about">About</a>
                         <a href="#menu">Menu</a>

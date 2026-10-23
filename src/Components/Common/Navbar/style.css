@@ -39,13 +39,13 @@
     font-style :italic;
 }
 
-.nav-links {
+.pen {
     display: flex;
     align-items: center;
     gap: 7px;
 }
 
-.nav-links a {
+.pen a {
     color: #2c2f24 ;
     font-size: 18px;
     text-decoration: none;
@@ -53,7 +53,7 @@
     border-radius: 20px;
     
 }
-.nav-links .active {
+.pen .active {
     
     border-radius: 30px;
     background-color: #DBDFD0 ;
@@ -62,5 +62,6 @@
     border: none;
     padding: 10px 20px;
     border: 1px solid black;
-    border-radius: 30px
+    border-radius: 30px;
+    background-color: white;
 }
