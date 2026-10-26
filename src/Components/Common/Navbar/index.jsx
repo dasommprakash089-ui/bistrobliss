@@ -8,11 +8,7 @@ import { MdOutlineMail } from "react-icons/md";
 import "./style.css"
 import Logo from "../../../assets/images/HomeImages/Logo.png";
 
-
-
-
-
-
+import {  NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -52,11 +48,11 @@ const Navbar = () => {
                     </div>
                     {/* Nav Menu  */}
                     <div className="pen">
-                        <a href="#" className="active">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#menu">Menu</a>
-                        <a href="#pages">Pages</a>
-                        <a href="#contact">Contact</a>
+                        <NavLink to="/" >Home</NavLink>
+                        <NavLink to="/about">About</NavLink>
+                        <NavLink to="/menu">Menu</NavLink>
+                        <NavLink to="/pages">Pages</NavLink>
+                        <NavLink to="/contact">Contact</NavLink>
 
                     </div>
                     {/* last btn  */}
