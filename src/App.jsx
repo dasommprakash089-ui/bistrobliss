@@ -10,8 +10,11 @@ import Footer from "./Components/Common/Footer";
 const App = () => {
   return(
     <div>
-    <Navbar/>
+    
       <BrowserRouter>
+
+      <Navbar/>
+      
       <Routes>
       <Route path="/"element={<HomePage/>}/>
       <Route path="/about" element={<AboutPage />} />
