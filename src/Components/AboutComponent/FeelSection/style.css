@@ -1,0 +1,25 @@
+.vdo-image {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+
+}
+
+.features h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color:#2C2F24 ;
+}
+
+.features p {
+    font-size: 0.85rem;
+    color:#414536;
+
+}

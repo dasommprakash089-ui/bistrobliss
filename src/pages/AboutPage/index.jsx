@@ -1,7 +1,15 @@
+import HeroSection from "../../Components/AboutComponent/HeroSection";
+import FeelSection from "../../Components/AboutComponent/FeelSection";
+import InformationSection from "../../Components/AboutComponent/InformationSection";
+import CustomerRating from "../../Components/AboutComponent/CustomerRating";
+
 const AboutPage=()=>{
     return(
         <>
-        <h1>Wellcome To AboutPage</h1>
+        <HeroSection/>
+        <FeelSection/>
+        <InformationSection/>
+        <CustomerRating/>
         </>
     )
 }

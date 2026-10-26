@@ -1,4 +1,4 @@
-.top-nav{
+.top-nav {
     padding: 10px 7%;
     display: flex;
     justify-content: space-between;
@@ -6,6 +6,7 @@
     background-color: #474747;
     color: white;
 }
+
 .top-first-inner {
     display: flex;
     align-items: center;
@@ -13,30 +14,68 @@
     gap: 30px;
     font-size: 15px;
 }
-.top-nav-connect{
+
+.top-nav-connect {
     display: flex;
     align-items: center;
-    justify-content: center;
+
     gap: 10px;
 }
 
-.top-nav-end {
-    display: flex; 
+.Nav-socials {
+    display: flex;
     gap: 10px;
-    align-items: center;
-    font-size: 20px;
 }
+
+
+
+.Nav-socials a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #131112;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+
 
 .nav-second {
     padding: 20px 7%;
     display: flex;
     justify-content: space-between;
     align-items: end;
+
+    border: 1px solid pink;
 }
 
-.logo-section h1{
+.logo-section {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+}
+
+.logo-section img {
+
+    object-fit: contain;
+    display: block;
+}
+
+
+.logo-section h1 {
     font-size: 40px;
-    font-style :italic;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    margin: 0;
+    
+
 }
 
 .pen {
@@ -46,19 +85,21 @@
 }
 
 .pen a {
-    color: #2c2f24 ;
+    color: #2c2f24;
     font-size: 18px;
     text-decoration: none;
     padding: 6px 13px;
     border-radius: 20px;
-    
+
 }
+
 .pen .active {
-    
+
     border-radius: 30px;
-    background-color: #DBDFD0 ;
+    background-color: #DBDFD0;
 }
-.nav-btn button{
+
+.nav-btn button {
     border: none;
     padding: 10px 20px;
     border: 1px solid black;
