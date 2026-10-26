@@ -1,0 +1,38 @@
+
+.info-title {
+    font-family: serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+ .info-para {
+    font-size: 14px;
+    color: #414536;
+}
+
+.box {
+    border: 1px solid #DBDFD0;
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px 10px ;
+}
+
+.box h3 {
+
+    font-family: serif;
+    font-size: 38px;
+    font-weight: 600;
+
+}
+
+.box p {
+    font-size: 14px;
+    color: #414536;
+    margin-top: 5px;
+}
+
+.info-img {
+    width: 100%;
+    object-fit: cover;
+    height: 420px;
+}

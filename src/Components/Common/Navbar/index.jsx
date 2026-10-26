@@ -6,7 +6,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import "./style.css"
-// import Logo from "../assets/images/HomeImages/Logo.png"
+import Logo from "../../../assets/images/HomeImages/Logo.png";
+
 
 
 
@@ -23,22 +24,21 @@ const Navbar = () => {
                     <div className="top-first-inner">
                         <div className="top-nav-connect">
                             <IoCallOutline />
-                            <p>(414) 857 - 0107</p>
+                            (414) 857 - 0107
                         </div>
                         <div className="top-nav-connect">
                             <MdOutlineMail />
-                            <p>yummy@bistrobliss</p>
+                            yummy@bistrobliss
 
                         </div>
 
                     </div>
 
-                    <div className="top-nav-end">
-                        <div style={{ height: "35px", width: "35px", borderRadius: "50%", backgroundColor: "black", position: "relative", display: "flex", justifyContent: "center", alignItems: "center" }}> <p style={{ position: "absolute", top: "7px" }}><FaTwitter /></p> </div>
-                        <div style={{ height: "35px", width: "35px", borderRadius: "50%", backgroundColor: "black", position: "relative", display: "flex", justifyContent: "center", alignItems: "center" }}> <p style={{ position: "absolute", top: "7px" }}><FaGithub /></p> </div>
-                        <div style={{ height: "35px", width: "35px", borderRadius: "50%", backgroundColor: "black", position: "relative", display: "flex", justifyContent: "center", alignItems: "center" }}> <p style={{ position: "absolute", top: "7px" }}><FaInstagram /></p> </div>
-                        <div style={{ height: "35px", width: "35px", borderRadius: "50%", backgroundColor: "black", position: "relative", display: "flex", justifyContent: "center", alignItems: "center" }}> <p style={{ position: "absolute", top: "7px" }}><FaFacebookF /></p> </div>
-
+                    <div className="Nav-socials">
+                        <a href="#"><FaTwitter /></a>
+                        <a href="#"><FaFacebookF /></a>
+                        <a href="#"><FaInstagram /></a>
+                        <a href="#"><FaGithub /></a>
                     </div>
 
                 </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <div className="nav-second">
                     {/* Nav logo  */}
                     <div className="logo-section">
-                        {/* <img src={Logo} alt="logo" ></img> */}
+                        <img src={Logo} alt="logo" />
                         <h1>Bistro Bliss</h1>
 
                     </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
                     <div className="nav-btn"> <button>
                         Book a Table
                     </button></div>
-                   
+
 
 
                 </div>
