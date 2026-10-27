@@ -10,7 +10,7 @@ const ContactComponents=()=>{
                     <h2>Contact Us</h2>
                     <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
                 </div>
-                <div className="contact-box">
+                <form className="contact-box">
                     <div className="name-email">
                         <div className="name">
                             <label For="" id="name">Name</label>
@@ -34,7 +34,7 @@ const ContactComponents=()=>{
                         <button className="btn" >Send</button>
                     </div>
 
-                </div>
+                </form>
                 <div className="contact-bottom">
                     <div className="contact-bottom-1">
                         <p>Call-us:</p>
