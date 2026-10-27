@@ -5,6 +5,7 @@ import footerimgtwo from "./Assets/footerimg-2.jpg";
 import footerimgthree from "./Assets/footerimg-3.png"
 import footerimgfour from "./Assets/footerimg-4.jpg"
 import { FaTwitter, FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -33,13 +34,13 @@ const Footer = () => {
           <div className="col-md-2 footer-pages">
             <h6 className="footer-heading">Pages</h6>
             <ul className="footer-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Delivery</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/menu">Menu</Link></li>
+              <li><Link to="/pricing">Pricing</Link></li>
+              <li><Link to="/blog">Blog</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/delivery">Delivery</Link></li>
             </ul>
           </div>
 
