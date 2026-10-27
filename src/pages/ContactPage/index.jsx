@@ -1,9 +1,10 @@
-import FastestDelivery from "../../Components/ContactComponents/FastestDelivery";
+import ContactComponents from "./../../Components/ContactComponents"
 
 const ContactPage = () => {
   return (
     <>
-      <FastestDelivery />
+    <ContactComponents/>
+      
     </>
   );
 };
