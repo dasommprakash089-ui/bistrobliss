@@ -1,10 +1,9 @@
-import ContactComponents from "./../../Components/ContactComponents"
+import ContactComponents from "../../Components/ContactComponents";
 
 const ContactPage = () => {
   return (
     <>
-    <ContactComponents/>
-      
+      <ContactComponents />
     </>
   );
 };
