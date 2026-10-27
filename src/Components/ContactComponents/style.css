@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contact-page{
+    background-color: #F9F9F7;
+}
+.contact-page .contact-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contact-para h2{
+    font-size: 60px;
+    font-weight: 400;
+    
+
+}
+.contact-para p{
+    font-size: 20px;
+    color: gray;
+}
+.contact-page .contact-box{
+    width: 600px;
+    height: 450px;
+    background-color: #FFFFFF;
+    color: black;
+    display: flex; 
+    flex-direction: column;
+    margin-left: 330px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.contact-box .name-email{
+    display: flex;
+    gap: 80px;
+}
+.name-email .name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+}
+.name-email .email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+}
+.name #input-name{
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+}
+.email #input-email{
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+}
+.contact-box .subject{
+     display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+
+}
+.subject #input-subject{
+    border-radius: 30px;
+    height: 40px;
+}
+.contact-box .message{
+     display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+
+}
+.message #input-message{
+    border-radius: 20px;
+    height: 80px;
+}
+.contact-box .button{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button .btn{
+    width: 500px;
+    margin-top: 20px;
+    background-color: #AD343E;
+    color: white;
+}
+.contact-page .contact-bottom{
+    display: flex;
+    gap: 120px;
+   
+    
+}
+.contact-bottom .contact-bottom-1{
+    margin-left: 330px;
+
+}
+.contact-bottom-1 p{
+    font-size: 15px;
+}
+.contact-bottom-1 h3{
+    font-size: 15px;
+}
+.contact-bottom-2 p{
+    font-size: 15px;
+}
+.contact-bottom-2 h3{
+    font-size: 15px;
+}
+.contact-bottom-3 p{
+    font-size: 15px;
+}
+.contact-bottom-3 h3{
+    font-size: 15px;
+}
+
