@@ -1,0 +1,56 @@
+
+.section-title {
+
+    font-family: serif;
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+.rating-card{
+
+    background-color: #F9F9F7;
+    border-radius: 20px;
+    padding: 30px;
+   
+
+}
+
+.rating-heading {
+    color: #AD343E;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.text-rating {
+    font-size: 14px;
+    color: #414536;
+    max-height: 90px;
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+
+}
+
+.customer-info img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.customer-info p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.customer-info span {
+    font-size: 15px;
+    color: #414536;
+}
