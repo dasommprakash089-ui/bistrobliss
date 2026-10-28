@@ -1,24 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .footer {
+  width: 100%;
   background-color: #444344;
   color: #fff;
   font-family: "DM Sans", sans-serif;
   text-align: left;
-  padding: 70px 0 40px;
+  padding: 75px 0 50px;
   margin-top: 20px;
 }
 
-
-.footer-top {
-  row-gap: 30px;
-  padding-bottom: 60px;
-
+.footer-container {
+  max-width: 1100px;
 }
+
+
 
 
 .footer-logo {
@@ -39,20 +40,22 @@
   font-weight: 500;
   font-size: 24px;
   color: white;
-
+  margin: 0;
 }
 
-.footer-about {
-  margin: 26px 0 18px;
-  
-  font-size: 11px;
 
-  color: white;
+.footer-about {
+  max-width: 290px;
+  margin: 26px 0 18px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #c2c0b9;
 }
 
 .footer-socials {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 8px;
 }
 
 .footer-socials a {
@@ -66,18 +69,23 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-
+  transition: 0.3s;
 }
 
 .footer-socials a:hover {
-  color: pink;
+  background: #fff;
+  color: #a8283a;
 }
+
 
 .footer-heading {
   font-size: 11px;
   font-weight: 700;
-  
+  color: white;
+  margin: 2px 0 27px;
+  white-space: nowrap;
 }
+
 
 .footer-links {
   list-style: none;
@@ -86,18 +94,21 @@
 }
 
 .footer-links li {
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 .footer-links a {
-  color: white;
+  color: #d0cec8;
   text-decoration: none;
   font-size: 11px;
+  transition: 0.3s;
 }
 
 .footer-links a:hover {
   color: pink;
 }
+
+
 .footer-photo {
   width: 100%;
   height: 107px;
@@ -107,10 +118,66 @@
   display: block;
 }
 
-
 .footer-bottom {
   text-align: center;
   font-size: 11px;
-  color: white;
-  padding-top: 28px;
+  color: #b9b7b1;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 22px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 45px 15px 30px;
+  }
+
+  .footer-top {
+    row-gap: 35px;
+    padding-bottom: 35px;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-logo img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .footer-logo h2 {
+    font-size: 30px;
+  }
+
+  .footer-about {
+    max-width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  .footer-heading {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+  }
+
+  .footer-photo {
+    height: 130px;
+  }
+
+  .footer-bottom {
+    font-size: 10px;
+    line-height: 1.6;
+  }
 }
