@@ -1,126 +1,146 @@
-*{
-    padding: 0px;
-    margin: 0px;
+
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-.contact-page{
+
+.contact-page {
+    width: 100%;
     background-color: #F9F9F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.contact-page .contact-para{
+
+.contact-page .contact-para {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin-top: 30px;
 }
-.contact-para h2{
+
+.contact-page .contact-para h2 {
     font-size: 60px;
     font-weight: 400;
-    
-
+    color: #222;
+    margin-bottom: 10px;
 }
-.contact-para p{
+
+.contact-page .contact-para p {
     font-size: 20px;
     color: gray;
+    line-height: 1.5;
 }
-.contact-page .contact-box{
+
+.contact-page .contact-box {
     width: 600px;
-    height: 450px;
+    max-width: 100%;
     background-color: #FFFFFF;
-    color: black;
-    display: flex; 
-    flex-direction: column;
-    margin-left: 330px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-}
-.contact-box .name-email{
-    display: flex;
-    gap: 80px;
-}
-.name-email .name{
+    color: #222;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    gap: 15px;
+    gap: 12px;
+    margin: 25px auto;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
 }
-.name-email .email{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    gap: 15px;
-}
-.name #input-name{
-    border-radius: 30px;
-    width: 250px;
-    height: 40px;
-}
-.email #input-email{
-    border-radius: 30px;
-    width: 250px;
-    height: 40px;
-}
-.contact-box .subject{
-     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    gap: 15px;
 
+.contact-page .name-email {
+    width: 100%;
+    display: flex;
+    gap: 12px;
 }
-.subject #input-subject{
-    border-radius: 30px;
-    height: 40px;
-}
-.contact-box .message{
-     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    gap: 15px;
 
+.contact-page .name,
+.contact-page .email {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
-.message #input-message{
+
+.contact-page label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #222;
+}
+
+.contact-page input {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    border: 1px solid #E5E5E5;
     border-radius: 20px;
+    font-size: 11px;
+    outline: none;
+    background-color: #FFFFFF;
+}
+.contact-page .subject {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-page .message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-page #input-message {
+    display: block;
+    width: 100%;
     height: 80px;
+    padding: 10px;
 }
-.contact-box .button{
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contact-page .button {
+    width: 100%;
 }
-.button .btn{
-    width: 500px;
-    margin-top: 20px;
+
+.contact-page .btn {
+    width: 100%;
+    height: 35px;
     background-color: #AD343E;
-    color: white;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
 }
-.contact-page .contact-bottom{
+
+.contact-page .contact-bottom {
     display: flex;
-    gap: 120px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 600px;
+    margin: 35px auto 40px;
+    gap: 25px;
+
+
+}
+
+
+
+.contact-page .contact-bottom p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+.contact-page .contact-bottom h3 {
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0;
    
-    
 }
-.contact-bottom .contact-bottom-1{
-    margin-left: 330px;
-
-}
-.contact-bottom-1 p{
-    font-size: 15px;
-}
-.contact-bottom-1 h3{
-    font-size: 15px;
-}
-.contact-bottom-2 p{
-    font-size: 15px;
-}
-.contact-bottom-2 h3{
-    font-size: 15px;
-}
-.contact-bottom-3 p{
-    font-size: 15px;
-}
-.contact-bottom-3 h3{
-    font-size: 15px;
-}
-
