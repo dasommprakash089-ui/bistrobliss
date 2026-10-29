@@ -21,6 +21,7 @@
     justify-content: center;
     text-align: center;
     margin-top: 30px;
+    
 }
 
 .contact-page .contact-para h2 {
@@ -28,6 +29,8 @@
     font-weight: 400;
     color: #222;
     margin-bottom: 10px;
+     font-family: "Playfair Display", serif;
+  font-weight: 500;
 }
 
 .contact-page .contact-para p {

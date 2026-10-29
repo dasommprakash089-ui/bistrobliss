@@ -1,4 +1,3 @@
-
 import "./style.css";
 import japanesefood from "./Assets/japanese-food.png";
 import footerimgone from "./Assets/footerimg-1.jpg";
@@ -19,11 +18,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container footer-container">
-
         <div className="row footer-top">
-
-          
-          <div className="col-md-3 footer-left">
+          <div className="col-12 col-md-3 footer-left">
             <div className="footer-logo">
               <img src={japanesefood} alt="Bistro Bliss" />
               <h2>Bistro Bliss</h2>
@@ -42,8 +38,7 @@ const Footer = () => {
             </div>
           </div>
 
-          
-          <div className="col-md-2 footer-pages">
+          <div className="col-6 col-md-2 footer-pages">
             <h6 className="footer-heading">Pages</h6>
 
             <ul className="footer-links">
@@ -57,8 +52,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          
-          <div className="col-md-2 footer-pages">
+          <div className="col-6 col-md-2 footer-pages">
             <h6 className="footer-heading">Utility Pages</h6>
 
             <ul className="footer-links">
@@ -72,54 +66,29 @@ const Footer = () => {
             </ul>
           </div>
 
-      
-          <div className="col-md-5 footer-insta">
-            <h6 className="footer-heading">
-              Follow Us On Instagram
-            </h6>
+          <div className="col-12 col-md-5 footer-insta">
+            <h6 className="footer-heading">Follow Us On Instagram</h6>
 
             <div className="row g-2">
               <div className="col-6">
-                <img
-                  src={footerimgone}
-                  alt="Instagram food"
-                  className="footer-photo"
-                />
+                <img src={footerimgone} alt="Instagram food" className="footer-photo" />
               </div>
-
               <div className="col-6">
-                <img
-                  src={footerimgtwo}
-                  alt="Instagram food"
-                  className="footer-photo"
-                />
+                <img src={footerimgtwo} alt="Instagram food" className="footer-photo" />
               </div>
-
               <div className="col-6">
-                <img
-                  src={footerimgthree}
-                  alt="Instagram food"
-                  className="footer-photo"
-                />
+                <img src={footerimgthree} alt="Instagram food" className="footer-photo" />
               </div>
-
               <div className="col-6">
-                <img
-                  src={footerimgfour}
-                  alt="Instagram food"
-                  className="footer-photo"
-                />
+                <img src={footerimgfour} alt="Instagram food" className="footer-photo" />
               </div>
             </div>
           </div>
-
         </div>
 
-        
         <div className="footer-bottom">
           Copyright © 2023 Hashtag Developer. All Rights Reserved
         </div>
-
       </div>
     </footer>
   );

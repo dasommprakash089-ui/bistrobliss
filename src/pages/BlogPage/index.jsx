@@ -1,9 +1,9 @@
-
+import BlogComponent from "../../Components/BlogComponent";
 
 const BlogPage = () => {
     return(
         <div>
-            <h1>Welcome to BlogPage</h1>
+            <BlogComponent/>
         </div>
     )
 }
