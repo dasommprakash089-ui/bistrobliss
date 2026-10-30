@@ -2,7 +2,7 @@
 import FoodPlateImage from "../../../assets/images/AboutImages/Foodimage.png"
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
-import { GrLocation } from "react-icons/gr";
+import { FaLocationDot } from "react-icons/fa6";
 import "./style.css"
 
 const HeroSection = () => {
@@ -18,9 +18,9 @@ const HeroSection = () => {
 
                         <div className="contact-about">
                             <h5>Come and visit us</h5>
-                            <p><IoCallOutline />(414) 857 - 0107</p>
-                            <p><MdOutlineMailOutline />happytummy@restaurant.com</p>
-                            <p><GrLocation />837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles</p>
+                            <p className="contact-detail"><IoCallOutline /> <span>(414) 857 - 0107</span></p>
+                            <p className="contact-detail"><MdOutlineMailOutline /> <span>happytummy@restaurant.com</span></p>
+                            <p className="contact-detail"><FaLocationDot /><span>837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles</span></p>
 
                         </div>
 

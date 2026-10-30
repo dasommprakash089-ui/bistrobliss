@@ -10,9 +10,9 @@
     padding: 30px;
     color: white;
     font-size: 12px;
-    width: 300px;
+    width: 320px;
     border-radius: 10px;
-    left: 300px;
+    left: 260px;
     bottom: -40px;
 }
 .contact-about h5{
@@ -21,8 +21,15 @@
 }
 
 .contact-about p{
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 10px;
+}
+
+.contact-detail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
 }
 
 .about-title{

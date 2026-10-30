@@ -3,14 +3,19 @@ import video from "../../../assets/images/AboutImages/video.png"
 import menu from "../../../assets/images/AboutImages/restaurant-menu1.png"
 import midIcon from "../../../assets/images/AboutImages/Iconabout.png"
 import timer from "../../../assets/images/AboutImages/timer-1.png"
+import { FaPlay } from "react-icons/fa";
 import "./style.css"
+
+
+
+
 const FeelSection = () => {
     return (
         <div>
             {/* video section  */}
             <div className="container mt-4 ">
-
-                <img src={video} alt="video about our restaurant" className="img-fluid  vdo-image" />
+               <img src={video} alt="video about our restaurant" className="img-fluid  vdo-image" />
+              
             </div>
             {/* features section  */}
             <div className=" container">
