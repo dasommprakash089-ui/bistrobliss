@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.para-section{
+    display: flex;
+    flex-direction: column;
+}
+.para-section .para-section-heading{
+       display: flex;
+       flex-direction: column;
+
+}
+.para-section-heading h1{
+        font-family: "Playfair Display", serif ;
+        font-size: 60px;
+
+}
+.para-section .para-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100px;
+    height: 699px;
+    margin-left: 600px;
+}

@@ -1,9 +1,11 @@
-import BlogComponent from "../../Components/BlogComponent";
+import CardSection from "../../Components/BlogComponent/CardSection";
+import ParaSection from "../../Components/BlogComponent/ParaSection";
 
 const BlogPage = () => {
     return(
         <div>
-            <BlogComponent/>
+            <CardSection/>
+            <ParaSection/>
         </div>
     )
 }
