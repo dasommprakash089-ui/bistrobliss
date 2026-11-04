@@ -1,108 +1,195 @@
-.top-nav {
-    padding: 10px 7%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #474747;
-    color: white;
-}
-
-.top-first-inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    font-size: 15px;
-}
-
-.top-nav-connect {
-    display: flex;
-    align-items: center;
-
-    gap: 10px;
-}
-
-.Nav-socials {
-    display: flex;
-    gap: 10px;
-}
-
-
-
-.Nav-socials a {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #131112;
-    color: #fff;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-
-}
-
-
-
-.nav-second {
-    padding: 20px 7%;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-
-    border: 1px solid pink;
-}
-
-.logo-section {
-    display: flex;
-    align-items: center;
-    height: 50px;
-    gap: 20px;
-}
-
-.logo-section img {
-
-    object-fit: contain;
-    display: block;
-}
-
-
-.logo-section h1 {
-    font-size: 40px;
-    font-style: italic;
-    font-family: "Playfair Display", serif;
-    font-weight: 800;
+*{
+    box-sizing: border-box;
+    padding:0 ;
     margin: 0;
-    
-
+}
+html, body {
+    overflow-x: hidden;  
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #ffffff;
 }
 
-.pen {
+
+.top-bar {
+    background-color: #474747;
+    color: #ffffff;
+    padding: 7px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.top-left {
+    display: flex;
+    gap: 25px;
+}
+.logo img{
+    padding: 2px;
+}
+
+.top-left span{
+    margin-right: 6px;
+}
+
+.top-right {
+    display: flex;
+    gap: 8px;
+}
+
+.top-right a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #777;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
-    gap: 7px;
+    justify-content: center;
+    font-size: 11px;
 }
 
-.pen a {
-    color: #2c2f24;
-    font-size: 18px;
+/* Main Navbar */
+.navbar {
+    width: 100%;
+    padding: 10px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
     text-decoration: none;
-    padding: 6px 13px;
-    border-radius: 20px;
-
+    color: #474747;
+   
+    
 }
 
-.pen a.active {
-
-    border-radius: 30px;
-    background-color: #DBDFD0;
+.logo img {
+    width: 50px;
 }
 
-.nav-btn button {
-    border: none;
-    padding: 10px 20px;
-    border: 1px solid black;
+.logo span {
+    font-family: serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    padding: 9px 13px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    background-color: #f1f1ed;
+}
+
+/* Book Table Button */
+.book-btn {
+    text-decoration: none;
+    color: #2c2f24;
+    border: 1px solid #2c2f24;
     border-radius: 30px;
-    background-color: white;
+    padding: 12px 22px;
+    font-size: 14px;
+    font-weight: 600;
+   
+    transition: 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #ad343e;
+    color: white;
+    border-color: #ad343e;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: #333;
+}
+
+.mobile-book {
+    display: none;
+}
+
+@media (max-width: 576px) {
+
+    .top-bar {
+        padding: 8px 5%;
+    }
+
+    .top-left {
+        gap: 12px;
+        font-size: 10px;
+    }
+
+    .top-right {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 70px;
+        padding: 12px 5%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+    .logo img {
+        width: 50px;
+    }
+
+    .mobile-menu {
+        display: block;
+       
+    }
+
+    .book-btn {
+        display: none;
+    }
+
+    .mobile-book {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    
 }

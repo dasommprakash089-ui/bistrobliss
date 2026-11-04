@@ -4,6 +4,10 @@
     height: 400px;
     object-fit: cover;
 }
+
+.hero {
+    padding: 120px 0 100px 0;
+}
 .contact-about{
     position: absolute;
     background-color:#474747;
@@ -42,3 +46,14 @@
     color: #414536;
      margin-top: 20px;
 }
+
+ @media (max-width: 576px) {
+
+    .contact-about{
+       display: none;
+        position: relative;
+    }
+    .hero {
+        padding: 100px 0;
+    }
+ }  

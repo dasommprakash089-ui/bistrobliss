@@ -4,68 +4,69 @@ import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
-import { MdOutlineMail } from "react-icons/md";
+import { MdMenu, MdOutlineMail } from "react-icons/md";
+
 import "./style.css"
 import Logo from "../../../assets/images/HomeImages/Logo.png";
 
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
     return (
         <>
-            <div>
-                {/* 1st section  */}
-                <div className="top-nav">
-                    <div className="top-first-inner">
-                        <div className="top-nav-connect">
-                            <IoCallOutline />
-                            (414) 857 - 0107
-                        </div>
-                        <div className="top-nav-connect">
-                            <MdOutlineMail />
-                            yummy@bistrobliss
+            <header className="header">
 
-                        </div>
-
+                {/* <!-- Top Bar --> */}
+                <div className="top-bar">
+                    <div className="top-left">
+                        <span> <IoCallOutline /> (414) 857 - 0107</span>
+                        <span><MdOutlineMail /> yummy@bistrobliss</span>
                     </div>
 
-                    <div className="Nav-socials">
+                    <div className="top-right">
                         <a href="#"><FaTwitter /></a>
                         <a href="#"><FaFacebookF /></a>
                         <a href="#"><FaInstagram /></a>
                         <a href="#"><FaGithub /></a>
                     </div>
-
                 </div>
-                {/* 2nd section  */}
-                <div className="nav-second">
-                    {/* Nav logo  */}
-                    <div className="logo-section">
+
+                {/* <!-- Main Navbar --> */}
+                <nav className="navbar">
+
+                    {/* <!-- Logo --> */}
+                    <div className="logo">
                         <img src={Logo} alt="logo" />
-                        <h1>Bistro Bliss</h1>
+                        <span>Bistro Bliss</span>
+                    </div>
+
+                    {/* <!-- Mobile Menu Toggle --> */}
+                    <div className="mobile-menu">
+                        <MdMenu />
+
 
                     </div>
-                    {/* Nav Menu  */}
-                    <div className="pen">
-                        <NavLink to="/" >Home</NavLink>
-                        <NavLink to="/about">About</NavLink>
-                        <NavLink to="/menu">Menu</NavLink>
-                        <NavLink to="/pages">Pages</NavLink>
-                        <NavLink to="/contact">Contact</NavLink>
 
-                    </div>
-                    {/* last btn  */}
-                    <div className="nav-btn"> <button>
-                        Book a Table
-                    </button></div>
+                    {/* <!-- Navigation Links --> */}
+                    <ul className="nav-links">
+                        <li> <NavLink to="/" >Home</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
+                        <li> <NavLink to="/menu">Menu</NavLink></li>
+                        <li><NavLink to="/pages">Pages</NavLink></li>
+                        <li> <NavLink to="/contact">Contact</NavLink></li>
 
+                        <li className="mobile-book">
+                            <a href="#">Book A Table</a>
+                        </li>
+                    </ul>
 
+                    {/* <!-- Booking Button --> */}
+                    <a href="#" className="book-btn">Book A Table</a>
 
-                </div>
+                </nav>
 
-
-            </div>
+            </header>
 
         </>
     )

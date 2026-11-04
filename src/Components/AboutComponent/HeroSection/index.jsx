@@ -8,8 +8,8 @@ import "./style.css"
 const HeroSection = () => {
     return (
         <div>
-            <div className="container">
-                <div className="row  align-items-center py-5" >
+            <div className="container hero ">
+                <div className="row mt-5  align-items-center " >
 
                     {/* left image  */}
 
