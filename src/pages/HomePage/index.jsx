@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 import HomeComponent from "../../Components/HomeComponent/FirstHome";
 import SecondHero from "../../Components/HomeComponent/SecondHome";
 import ThirdHero from "../../Components/HomeComponent/ThirdHome";
@@ -22,4 +20,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
->>>>>>> 60e684efb793a60072e4638afaaf86c2db837c5a
