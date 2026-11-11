@@ -7,7 +7,7 @@ import ContactPage from "./pages/ContactPage";
 import ServicePage from "./pages/ServicePage";
 import MenuPage from "./pages/MenuPage";
 import PricingPage from "./pages/PricingPage";
-// import BlogPage from "./pages/BlogPage";
+import BlogPage from "./pages/BlogPage";
 import Deliverypage from "./pages/DeliveryPage";
 
 
@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/service" element={<ServicePage />} />
-        {/* <Route path="/blog" element={<BlogPage />} /> */}
+        <Route path="/blog" element={<BlogPage />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/delivery" element={<Deliverypage />} />
       </Routes>

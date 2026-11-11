@@ -17,7 +17,11 @@
 }
 
 /* ---------- HERO ---------- */
+<<<<<<< HEAD
 /* .Homepage .container,
+=======
+.Homepage .container-fluid,
+>>>>>>> b96073ea7444a4961c91e98dce872f13921fecc3
 .Homepage .row {
     width: 100%;
 } */

@@ -14,7 +14,7 @@ const HomeComponent = () => {
         <div className="Homepage">
              <img src={heroimg} alt="heroimg" />
             {/* HERO */}
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="Home-img">
                        
