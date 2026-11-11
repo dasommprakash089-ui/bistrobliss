@@ -16,7 +16,7 @@
 }
 
 /* ---------- HERO ---------- */
-.Homepage .container,
+.Homepage .container-fluid,
 .Homepage .row {
     width: 100%;
 }

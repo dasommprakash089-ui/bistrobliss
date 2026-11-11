@@ -13,7 +13,7 @@ const HomeComponent = () => {
     return (
         <div className="Homepage">
             {/* HERO */}
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="Home-img">
                         <img src={heroimg} alt="heroimg" />
