@@ -7,6 +7,7 @@
 }
 
 .Homepage {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,26 +17,23 @@
 }
 
 /* ---------- HERO ---------- */
-.Homepage .container,
+/* .Homepage .container,
 .Homepage .row {
     width: 100%;
-}
+} */
 
-.Homepage .Home-img {
-    position: relative;
-    width: 100%;
-}
 
-.Homepage .Home-img img {
+
+.Homepage  img {
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: block;
-    margin-top: 10px;
+    
 }
 
 .Homepage .Home-img .img-para {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;

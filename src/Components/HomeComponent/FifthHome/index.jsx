@@ -5,7 +5,7 @@ import image1 from "../../../assets/images/HomeImages/image1.png";
 import image2 from "../../../assets/images/HomeImages/image2.png";
 import image3 from "../../../assets/images/HomeImages/image3.png";
 
-const FifthHero = () => {
+const FifthHome = () => {
   return (
     <section className="testimonials">
       <h2 className="testimonials__heading">What Our Customers Say</h2>
@@ -75,4 +75,4 @@ const FifthHero = () => {
   );
 };
 
-export default FifthHero;
+export default FifthHome;

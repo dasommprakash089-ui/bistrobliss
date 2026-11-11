@@ -12,11 +12,12 @@ const menuItems = [
 const HomeComponent = () => {
     return (
         <div className="Homepage">
+             <img src={heroimg} alt="heroimg" />
             {/* HERO */}
             <div className="container">
                 <div className="row">
                     <div className="Home-img">
-                        <img src={heroimg} alt="heroimg" />
+                       
 
                         <div className="img-para">
                             <h1>
