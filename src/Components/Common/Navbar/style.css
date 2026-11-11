@@ -66,6 +66,10 @@ html, body {
     
 }
 
+.logo-section {
+    padding-left: 10px;
+}
+
 /* Logo */
 .logo {
     display: flex;
@@ -121,6 +125,7 @@ html, body {
     padding: 12px 22px;
     font-size: 14px;
     font-weight: 600;
+    margin-right: 20px;
    
     transition: 0.3s;
 }
@@ -176,6 +181,7 @@ html, body {
 
     .mobile-menu {
         display: block;
+        padding-right: 10px;
        
     }
 

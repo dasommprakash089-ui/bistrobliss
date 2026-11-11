@@ -34,12 +34,16 @@ const Navbar = () => {
 
                 {/* <!-- Main Navbar --> */}
                 <nav className="navbar">
+                <div className="logo-section">
 
-                    {/* <!-- Logo --> */}
+                     {/* <!-- Logo --> */}
                     <div className="logo">
                         <img src={Logo} alt="logo" />
                         <span>Bistro Bliss</span>
                     </div>
+
+                </div>
+                   
 
                     {/* <!-- Mobile Menu Toggle --> */}
                     <div className="mobile-menu">

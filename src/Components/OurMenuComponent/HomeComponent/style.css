@@ -1,0 +1,132 @@
+
+
+
+.Menu-heading {
+    margin-top: 50px;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #292d22;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu-para {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu-filters {
+    margin-bottom: 30px ;
+}
+
+.filter-btn {
+    border: 1px solid #e8e8e5;
+    background-color: white;
+    border-radius: 30px;
+    padding: 7px 17px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    transition: 0.3s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: #ad2e3d;
+    color: white;
+    border-color: #ad2e3d;
+}
+
+.food-card {
+    height: 100%;
+    border: 1px solid #e6e6df;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.food-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+}
+
+.food-card img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.food-info {
+    padding: 10px 7px 9px;
+    
+}
+
+.food-info h6 {
+    color: #ad2e3d;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.food-info h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #292d22;
+    margin-bottom: 10px;
+}
+
+.food-info p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #414536;
+    margin-bottom: 10px;
+}
+
+
+
+/* Mobile */
+@media (max-width: 576px) {
+    .menu-section {
+        padding: 30px 0;
+    }
+
+    .menu-heading h1 {
+        font-size: 34px;
+    }
+
+    .menu-heading p {
+        font-size: 10px;
+        padding: 0 15px;
+    }
+
+    .filter-btn {
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+
+    .food-card img {
+        height: 105px;
+    }
+
+    .food-info {
+        padding: 9px 5px;
+    }
+
+    .food-info h6 {
+        font-size: 11px;
+    }
+
+    .food-info h5 {
+        font-size: 11px;
+    }
+
+    .food-info p {
+        font-size: 8px;
+    }
+}

@@ -1,7 +1,13 @@
+
+import HomeComponent from "../../Components/OurMenuComponent/HomeComponent";
+import OrderComponent from "../../Components/OurMenuComponent/OrderComponent";
+
 const MenuPage=()=>{
     return(
         <>
-        <h1>WelCome To Menu Page</h1></>
+        <HomeComponent/>
+        <OrderComponent/>
+        </>
     )
 }
 export default MenuPage;
