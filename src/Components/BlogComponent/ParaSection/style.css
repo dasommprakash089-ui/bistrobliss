@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.para-section{
+    display: flex;
+    flex-direction: column;
+}
+.para-section .para-section-heading{
+       display: flex;
+       flex-direction: column;
+
+}
+.para-section-heading h1{
+        font-family: "Playfair Display", serif ;
+        font-size: 60px;
+
+}
+.para-section .para-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 70%;
+   padding: 50px 40px;
+   margin-left: 190px;
+}
+.para-section .para-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+
+    
+}
+.para-area .para-1{
+    font-size: 22px;
+    font-weight: 700;
+      margin-top: 40px;
+      align-items: center;
+      justify-content: center;
+}
+.para-area .para-2{
+    font-size: 20px;
+      margin-top: 10px;
+        align-items: center;
+      justify-content: center;
+
+}
+.para-area .para-3{
+    margin-top: 40px;
+      align-items: center;
+      justify-content: center;
+}
+.para-section .after-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.after-para img{
+    width: 70%;
+
+}
+.after-para p{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+.after-para span{
+    font-size: 20px;
+    margin-left: 120px;
+}
+.para-section .last-para{
+     width: 100%;
+    min-height: 280px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.last-para .heading{
+    margin-top: 40px;
+    text-align: center;
+    
+    
+}
+.heading h1{
+    font-family: "Playfair Display", serif ;
+    text-align: center;
+    font-size: 50px;
+
+}
+.heading p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.para-section .card-area{
+    padding: 40px 10px;
+}
+.last-para .blog-card{
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+}
+
+.blog-card .blog-card-img{
+    width: 100%;
+    height: 142px;
+    object-fit: cover;
+    display: block;
+}
+
+.blog-card .blog-card-name{
+    padding: 20px 18px 24px;
+    text-align: start;
+}
+
+.blog-card-name .blog-card-date{
+    font-size: 15px;
+}
+
+.blog-card-name .blog-card-title{
+    font-size: 20px;
+    margin-top: 5px;
+}
+@media (max-width: 576px){
+    .para-section-heading h1{
+        font-family: "Playfair Display", serif ;
+        font-size: 30px;
+
+}
+ .para-section .para-img{
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 15px;
+    }
+
+    .para-section .para-img img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+.after-para p{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 30px;
+    display: flex;
+    margin-left: 280px;
+    
+}
+.after-para span{
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: center;
+    
+}
+.after-para img{
+    width: 90%;
+
+}
+
+
+}
