@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@400;500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* ---------- HERO ---------- */
+.Homepage .container,
+.Homepage .row {
+    width: 100%;
+}
+
+.Homepage .Home-img {
+    position: relative;
+    width: 100%;
+}
+
+.Homepage .Home-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.Homepage .Home-img .img-para {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 520px;
+    text-align: center;
+    color: #2b2b24;
+}
+
+.Homepage .Home-img .img-para h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.Homepage .Home-img .img-para p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #1f1f1f;
+    margin-bottom: 28px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hero-buttons button {
+    font-family: "DM Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 12px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #a8303f;
+    color: #fff;
+    border: 1px solid #a8303f;
+}
+
+.btn-primary:hover {
+    background: #8c2733;
+}
+
+.btn-outline {
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.btn-outline:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* ---------- BROWSE OUR MENU ---------- */
+.browse-menu {
+    width: 100%;
+    padding: 60px 20px 70px;
+    text-align: center;
+    background: #fff;
+}
+
+.browse-menu h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #2b2b24;
+    margin-bottom: 45px;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.menu-card {
+    width: 163px;
+    padding: 28px 16px 22px;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #2b2b24;
+    margin-bottom: 16px;
+}
+
+.menu-card h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.menu-card p {
+    font-size: 9px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 14px;
+}
+
+.menu-link {
+    font-size: 9px;
+    font-weight: 700;
+    color: #a8303f;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+    .Homepage .Home-img .img-para h1 {
+        font-size: 36px;
+    }
+    .Homepage .Home-img .img-para p {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    .hero-buttons button {
+        padding: 8px 14px;
+    }
+}

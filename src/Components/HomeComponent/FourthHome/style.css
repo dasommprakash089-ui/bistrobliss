@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@400;500&display=swap");
+
+.delivery-section {
+    width: 100%;
+    background: #f9f8f6;
+    padding: 70px 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.delivery-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* ---------- IMAGES ---------- */
+.delivery-images {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.delivery-main-img {
+    width: 280px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.delivery-side-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.delivery-side-imgs img {
+    width: 150px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* ---------- TEXT ---------- */
+.delivery-text {
+    flex: 1;
+    max-width: 380px;
+}
+
+.delivery-text h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #2b2b24;
+    margin-bottom: 16px;
+}
+
+.delivery-text p {
+    font-size: 12px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 24px;
+    max-width: 260px;
+}
+
+.delivery-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.delivery-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #222;
+}
+
+.delivery-icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #a8303f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 900px) {
+    .delivery-container {
+        flex-direction: column;
+        text-align: left;
+    }
+    .delivery-text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .delivery-images {
+        flex-direction: column;
+    }
+    .delivery-main-img,
+    .delivery-side-imgs img {
+        width: 100%;
+    }
+    .delivery-side-imgs {
+        width: 100%;
+    }
+}
