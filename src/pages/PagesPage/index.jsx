@@ -1,7 +1,7 @@
 import CardSection from "../../Components/BlogComponent/CardSection";
 import ParaSection from "../../Components/BlogComponent/ParaSection";
 
-const BlogPage = () => {
+const PagesPage = () => {
     return(
         <div>
             <CardSection/>
@@ -10,4 +10,4 @@ const BlogPage = () => {
     )
 }
 
-export default BlogPage;
+export default PagesPage;

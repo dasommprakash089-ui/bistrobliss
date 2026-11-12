@@ -7,7 +7,7 @@ import ContactPage from "./pages/ContactPage";
 import ServicePage from "./pages/ServicePage";
 import MenuPage from "./pages/MenuPage";
 import PricingPage from "./pages/PricingPage";
-import BlogPage from "./pages/BlogPage";
+import PagesPage from "./pages/PagesPage";
 import Deliverypage from "./pages/DeliveryPage";
 import Navbar from "./Components/Common/Navbar";
 import Footer from "./Components/Common/Footer";
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/service" element={<ServicePage />} />
-        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/pages" element={<PagesPage />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/delivery" element={<Deliverypage />} />
         

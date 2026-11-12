@@ -17,9 +17,9 @@ const CardSection = () => {
     return (
         <>
             <div className="blog-page">
-                <div className="container">
+                <div className="container mt-5">
                     <div className="row">
-                        <div className="blog-page-para col-12 text-center">
+                        <div className="blog-page-para col-12 text-center py-5">
                             <h1>Our Blog & Articles</h1>
                             <p>We consider all the drivers of change gives<br className="d-none d-md-block" /> you the components you need to change to create a truly happens.</p>
                         </div>
