@@ -9,10 +9,9 @@ import MenuPage from "./pages/MenuPage";
 import PricingPage from "./pages/PricingPage";
 import BlogPage from "./pages/BlogPage";
 import Deliverypage from "./pages/DeliveryPage";
-
-
 import Navbar from "./Components/Common/Navbar";
 import Footer from "./Components/Common/Footer";
+
 
 const App = () => {
   return (
@@ -29,6 +28,7 @@ const App = () => {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/delivery" element={<Deliverypage />} />
+        
       </Routes>
 
       <Footer />

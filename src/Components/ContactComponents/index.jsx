@@ -6,7 +6,7 @@ const ContactComponents = () => {
             <div className="contact-page">
                 <div className="container mt-5">
                     <div className="">
-                        <div className="contact-para mt-5">
+                        <div className="contact-para ">
                             <h2>Contact Us</h2>
                             <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
                         </div>

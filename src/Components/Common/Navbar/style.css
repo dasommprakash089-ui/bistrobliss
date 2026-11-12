@@ -60,14 +60,14 @@ html, body {
     width: 100%;
     padding: 10px 9%;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     background-color: #ffffff;
     
 }
 
 .logo-section {
-    padding-left: 10px;
+    padding-left: 8%;
 }
 
 /* Logo */
@@ -78,6 +78,7 @@ html, body {
     font-size: 30px;
     text-decoration: none;
     color: #474747;
+   
    
     
 }
@@ -97,7 +98,7 @@ html, body {
 /* Navigation Links */
 .nav-links {
     display: flex;
-    align-items: center;
+    align-items: end;
     gap: 30px;
     list-style: none;
 }
@@ -122,10 +123,10 @@ html, body {
     color: #2c2f24;
     border: 1px solid #2c2f24;
     border-radius: 30px;
-    padding: 12px 22px;
+    padding: 12px 20px;
     font-size: 14px;
     font-weight: 600;
-    margin-right: 20px;
+   margin-right: 9%;
    
     transition: 0.3s;
 }
@@ -156,6 +157,9 @@ html, body {
 
     .top-bar {
         padding: 8px 5%;
+        display: flex;
+       
+        justify-content: center;
     }
 
     .top-left {
@@ -171,6 +175,9 @@ html, body {
         min-height: 70px;
         padding: 12px 5%;
     }
+    .logo-section {
+    padding-left: 3%;
+}
 
     .logo {
         font-size: 20px;
